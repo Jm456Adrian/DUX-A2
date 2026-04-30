@@ -129,3 +129,8 @@ footer {
 .menu-card h3 {
     color: #6b3e2a;
 }
+
+.video-section {
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
