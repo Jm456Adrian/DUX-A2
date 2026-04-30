@@ -34,3 +34,19 @@ header {
 .nav-links a {
     color: white;
 }
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+.hero {
+    padding: 20px;
+}
+
+.intro {
+    padding: 20px;
+}
