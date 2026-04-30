@@ -114,3 +114,9 @@ footer {
     padding: 20px;
     border: 1px solid #cccccc;
 }
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
