@@ -162,3 +162,9 @@ footer {
     padding: 8px;
     margin-top: 5px;
 }
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
