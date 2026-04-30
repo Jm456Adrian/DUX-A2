@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couzens Bakery | Visit Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Couzens Bakery</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Visit Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <h2>Visit Couzens Bakery</h2>
+            <p>Find out where to visit and how to contact the bakery.</p>
+        </section>
+
+        <section class="contact-layout">
+            <div class="contact-info">
+                <h3>Location</h3>
+                <p>
+                    Couzens Bakery is primarily located in The Harvey Centre, Harlow, Essex.
+                </p>
+
+                <h3>Opening Information</h3>
+                <p>
+                    Please check directly with the bakery or shopping centre for the most accurate
+                    opening times.
+                </p>
+
+                <a href="https://www.theharveycentre.com/" target="_blank" class="button">
+                    Visit The Harvey Centre Website
+                </a>
+            </div>
+
+            <form class="contact-form" onsubmit="return showFormMessage()">
+                <h3>Contact Form</h3>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+                <p id="form-message"></p>
+            </form>
+        </section>
+
+       
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Couzens Bakery Website Project. Created for coursework purposes.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
