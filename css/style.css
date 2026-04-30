@@ -178,3 +178,9 @@ footer {
     text-decoration: none;
     font-weight: bold;
 }
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
