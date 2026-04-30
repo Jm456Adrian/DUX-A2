@@ -138,3 +138,12 @@ footer {
 .video-section video {
     margin-top: 10px;
 }
+
+
+.contact-info,
+.contact-form,
+.map-section {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
