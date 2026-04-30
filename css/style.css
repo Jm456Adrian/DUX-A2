@@ -193,3 +193,7 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.map-section iframe {
+    margin-top: 10px;
+}
