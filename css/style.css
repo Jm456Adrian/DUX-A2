@@ -121,3 +121,11 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
 }
+
+.menu-card {
+    background-color: white;
+}
+
+.menu-card h3 {
+    color: #6b3e2a;
+}
