@@ -147,3 +147,18 @@ footer {
     padding: 20px;
     margin-bottom: 20px;
 }
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    margin-top: 5px;
+}
