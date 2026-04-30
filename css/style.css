@@ -134,3 +134,7 @@ footer {
     border: 1px solid #cccccc;
     padding: 20px;
 }
+
+.video-section video {
+    margin-top: 10px;
+}
