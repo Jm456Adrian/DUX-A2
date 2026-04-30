@@ -73,3 +73,10 @@ section {
     font-weight: bold;
 }
 
+footer {
+    background-color: #6b3e2a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
